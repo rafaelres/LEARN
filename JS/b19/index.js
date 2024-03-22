@@ -12,7 +12,6 @@ while (rand !== 10) {
     rand = random(min, max)
     console.log(rand)
 }
-
 // faz e depois confere a condição
 do {
     rand = random(min, max)
