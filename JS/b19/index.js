@@ -1,0 +1,29 @@
+function random(min, max) {
+    const r = Math.random() * (max - min) + min;
+    return Math.floor(r)
+}
+
+//while faz enquanto a condição for true e para quando for false
+const min = 1
+const max = 50
+let rand = 10
+
+while (rand !== 10) {
+    rand = random(min, max)
+    console.log(rand)
+}
+
+// faz e depois confere a condição
+do {
+    rand = random(min, max)
+    console.log(rand)
+} while(rand !== 10)
+
+// const nome = 'Rafael'
+// let i = 0
+
+// while (i < nome.length) {
+//     console.log(nome[i])
+//     i++
+// } 
+
