@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmj2zvygUvXpR9Gs2tV37G5aPuKiBKuLauNxbi8kMUuV8vEh76BVlc2yP_2nZc0dd7--Y&usqp=CAU);
+    background-size: cover;
+    background-position: top center;
+}
+
+#heading {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#heading div {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#heading .h1 {
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#heading a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: JetBrains Mono;
+}
