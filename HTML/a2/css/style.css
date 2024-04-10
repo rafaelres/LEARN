@@ -1,0 +1,39 @@
+.a1,
+.a2{
+    box-sizing: border-box;
+}
+
+.a1 {
+    background: deeppink;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk-ChEHmPnooaUg7RtdrxDfuWa2Rr9d55hEX2xSxN80Q&s);
+    color: #FFF;
+    background-position: center center;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-bottom-color: red;
+    border-top-color: blue;
+    border-right-color: yellow;
+    border-left-color: green;
+    padding: 15px;
+    margin: 20px;
+}
+
+.a2 {
+    background: cyan;
+    color: #FFF;
+    background-position: center center;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-bottom-color: red;
+    border-top-color: blue;
+    border-right-color: yellow;
+    border-left-color: green;
+    padding: 15px;
+    margin: 20px;
+    
+}
+
