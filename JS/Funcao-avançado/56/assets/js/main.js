@@ -40,6 +40,7 @@ function Calculadora() {
     };
 
     this.addNumDisplay = el => {
+        //this.display.value = this.display.value + el.innerText;
         this.display.value += el.innerText;
         this.display.focus();
     };
